@@ -1,0 +1,21 @@
+{
+  "name": "cspray/labrador-exceptions",
+  "description": "",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Charles Sprayberry",
+      "email": "cspray+labrador@gmail.com",
+      "homepage": "http://labrador.cspray.net",
+      "role": "Benevolent Dictator For Life"
+    }
+  ],
+  "require": {
+    "php": "~7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Cspray\\Labrador\\Exception\\": ["src/"]
+    }
+  }
+}
